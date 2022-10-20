@@ -1,0 +1,76 @@
+body {
+    background-color:rgb(236, 236, 236);
+    font-family:'Verdana';
+
+}
+
+img {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+@media screen and (max-width: 900px) {
+    .article-title {
+        font-size: 25px;
+    }
+    
+}
+@media screen and (max-width:550px) {
+    .article-title {
+        font-size: 18px !important;
+        margin:0.5em;
+    }
+    .card-text {
+        font-size: 10px !important;
+    }
+
+    p {
+        font-size: 10px;
+    }
+}
+
+.navbar-item {
+    font-size: 1.2rem;
+
+}
+
+li {
+    margin: 20px;
+    color:black;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    margin:1rem;
+
+}
+
+.article {
+    background-color:white;
+    margin:1rem;
+
+}
+
+.article-title {
+    font-size: 30px;
+    line-height: 1em;
+    margin:1em;
+    
+}
+
+.card-text {
+    font-size: 20px;
+}
+
+@media screen and (hover:hover) {
+    h2:hover {
+        text-decoration: underline;
+    }
+}
+
+.cat-btn {
+    width:200px;
+    margin: 5px;
+}
